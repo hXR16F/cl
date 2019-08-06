@@ -19,6 +19,15 @@ pause
 
 Every string must be closed with ```%`r%```.
 
+# cl code explanation
+Example: ```%fg`cyan-%```
+
+Code | Explanation
+---: | :---
+```fg``` | foreground
+```cyan``` | color
+```-``` | darker color
+
 # Color table
 Color table is also available in **example1.bat**.
 
