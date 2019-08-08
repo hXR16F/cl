@@ -1,6 +1,5 @@
 @echo off & mode 78,45 & color 07
-for /f "tokens=4-7 delims=[.] " %%i in ('ver') do @(if "%%i" equ "Version" (if "%%j.%%k" equ "6.3" (set legacy=1) else (if "%%j.%%k" equ "6.2" (set legacy=1) else (if "%%j.%%k" equ "6.1" (set legacy=1) else (if "%%j.%%k" equ "6.0" (set legacy=1) else (if "%%j.%%k" equ "5.2" (set legacy=1) else (if "%%j.%%k" equ "5.1" (set legacy=1) else (if "%%j.%%k" equ "5.0" (set legacy=1)))))))		) else (if "%%i.%%j" equ "6.3" (set legacy=1) else (if "%%i.%%j" equ "6.2" (set legacy=1) else (if "%%i.%%j" equ "6.1" (set legacy=1) else (if "%%i.%%j" equ "6.0" (set legacy=1) else (if "%%i.%%j" equ "5.2" (set legacy=1) else (if "%%i.%%j" equ "5.1" (set legacy=1) else (if "%%i.%%j" equ "5.0" (set legacy=1)))))))))
-if "%legacy%" equ "1" (call cl.bat --legacy) else (call cl.bat)
+call cl.bat
 cls
 echo.
 echo  %`u%%fg`white%Dark foreground%`r%                   %`u%%fg`white%Styles%`r%
@@ -31,8 +30,8 @@ echo  ^| %bg`black-%Hello World!%`r% ^| %%bg`black-%%
 echo  ^| %bg`red-%Hello World!%`r% ^| %%bg`red-%%        %`u%%fg`white%Compatibility%`r% 
 echo  ^| %bg`green-%Hello World!%`r% ^| %%bg`green-%%
 echo  ^| %bg`yellow-%Hello World!%`r% ^| %%bg`yellow-%%     If you are running Windows older than 10,
-echo  ^| %bg`blue-%Hello World!%`r% ^| %%bg`blue-%%       then you should use '%fg`black%--legacy%`r%' option:
-echo  ^| %bg`magenta-%Hello World!%`r% ^| %%bg`magenta-%%    '%fg`black%call cl.bat --legacy%`r%'.
+echo  ^| %bg`blue-%Hello World!%`r% ^| %%bg`blue-%%       %`b%cl%`r% will automatically set it to legacy
+echo  ^| %bg`magenta-%Hello World!%`r% ^| %%bg`magenta-%%    mode. If not: '%fg`black%call cl.bat --legacy%`r%'.
 echo  ^| %bg`cyan-%Hello World!%`r% ^| %%bg`cyan-%%
 echo  ^| %bg`white-%Hello World!%`r% ^| %%bg`white-%%
 echo.
