@@ -91,3 +91,7 @@ Normal (reset) | ```%`r%``` | \<ESC>[0m
 Bold | ```%`b%``` | \<ESC>[1m
 Underline | ```%`u%``` | \<ESC>[4m
 Inverse | ```%`i%``` | \<ESC>[7m
+
+# Donate
+If you support my work or like my projects, you can donate me some money. Thank you 💙
+BTC: **bc1q9trutvumrfuwrdwj377xd7u2flyp527j6t6qh9**
