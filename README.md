@@ -93,5 +93,4 @@ Underline | ```%`u%``` | \<ESC>[4m
 Inverse | ```%`i%``` | \<ESC>[7m
 
 # Donate
-If you support my work or like my projects, you can donate me some money. Thank you 💙\
-BTC: `1GZRqMvfAhsHbWAJUKf9EruBPNKqwGAPFU`
+If you support my work or like my projects, [you can donate me some money](https://github.com/hXR16F/donate/blob/master/README.md). Thank you 💙
