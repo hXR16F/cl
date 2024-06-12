@@ -27,21 +27,21 @@ echo                                         %fg`black%fg%`r% foreground
 echo  %`u%%fg`white%Dark background%`r%                      %fg`black%cyan%`r% color
 echo                                          %fg`black%-%`r% darker color
 echo  ^| %bg`black-%Hello World!%`r% ^| %%bg`black-%%
-echo  ^| %bg`red-%Hello World!%`r% ^| %%bg`red-%%        %`u%%fg`white%Compatibility%`r% 
+echo  ^| %bg`red-%Hello World!%`r% ^| %%bg`red-%%        %`u%%fg`white%Author%`r%
 echo  ^| %bg`green-%Hello World!%`r% ^| %%bg`green-%%
-echo  ^| %bg`yellow-%Hello World!%`r% ^| %%bg`yellow-%%     If you are running Windows older than 10,
-echo  ^| %bg`blue-%Hello World!%`r% ^| %%bg`blue-%%       %`b%cl%`r% will automatically set it to legacy
-echo  ^| %bg`magenta-%Hello World!%`r% ^| %%bg`magenta-%%    mode. If not: '%fg`black%call cl.bat --legacy%`r%'.
+echo  ^| %bg`yellow-%Hello World!%`r% ^| %%bg`yellow-%%     hXR16F.ar@gmail.com %fg`black%^(E-mail^)%`r%
+echo  ^| %bg`blue-%Hello World!%`r% ^| %%bg`blue-%%       .zaktabyte %fg`black%^(Discord^)%`r%
+echo  ^| %bg`magenta-%Hello World!%`r% ^| %%bg`magenta-%%    %fg`black%github.com/%`r%%fg`white-%hXR16F%`r%
 echo  ^| %bg`cyan-%Hello World!%`r% ^| %%bg`cyan-%%
 echo  ^| %bg`white-%Hello World!%`r% ^| %%bg`white-%%
 echo.
-echo  %`u%%fg`white%Light background%`r%                  %`u%%fg`white%Author%`r%
+echo  %`u%%fg`white%Light background%`r%
 echo.
-echo  ^| %bg`black%Hello World!%`r% ^| %%bg`black-%%      hXR16F.ar@gmail.com %fg`black%^(E-mail^)%`r%
-echo  ^| %bg`red%Hello World!%`r% ^| %%bg`red-%%        hXR16F#1796 %fg`black%^(Discord^)%`r%
+echo  ^| %bg`black%Hello World!%`r% ^| %%bg`black-%%
+echo  ^| %bg`red%Hello World!%`r% ^| %%bg`red-%%
 echo  ^| %bg`green%Hello World!%`r% ^| %%bg`green-%%
-echo  ^| %bg`yellow%Hello World!%`r% ^| %%bg`yellow-%%     %fg`black%github.com/%`r%%fg`white-%hXR16F%`r%
-echo  ^| %bg`blue%Hello World!%`r% ^| %%bg`blue-%%       %fg`black%instagram.com/%`r%%fg`white-%hxr16f.ar%`r%
+echo  ^| %bg`yellow%Hello World!%`r% ^| %%bg`yellow-%%
+echo  ^| %bg`blue%Hello World!%`r% ^| %%bg`blue-%%
 echo  ^| %bg`magenta%Hello World!%`r% ^| %%bg`magenta-%%
 echo  ^| %bg`cyan%Hello World!%`r% ^| %%bg`cyan-%%
 echo  ^| %bg`white%Hello World!%`r% ^| %%bg`white-%%
