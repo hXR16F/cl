@@ -7,7 +7,7 @@
 </p>
 
 # Usage
-Add `call cl.bat` or `call cl.bat --legacy` *(to force using legacy mode - Windows older than 10)* at the beginning of your batch script.
+Add `call cl.bat` at the beginning of your batch script.
 
 ```batchfile
 @echo off
